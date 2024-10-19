@@ -7,7 +7,7 @@ function FinancialRecordForm() {
   const [amount, setAmount] = useState<string>("");
   const [cat, setCat] = useState<string>("");
   const [method, setMethod] = useState<string>("");
-  const {records, addRecord} = useFinancialContext()
+  const {addRecord} = useFinancialContext()
 
   const { user } = useUser();
 
